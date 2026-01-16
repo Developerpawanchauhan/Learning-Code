@@ -1,0 +1,45 @@
+.container{
+    border: 2px solid black;
+}
+
+/* .box{
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    transition-property: width, background-color;
+    transition-duration: 0.5s;
+}
+
+#box1:hover{
+    width: 600px;
+    background-color: brown;
+}
+
+#box2:hover{
+    width: 600px;
+    background-color: red;
+}
+
+#box3:hover{
+   width: 600px;
+    background-color: purple;
+}
+
+#box4:hover{
+    width: 600px;
+    background-color: green;
+}
+
+#box5:hover{
+    width: 600px;
+    background-color: blue;
+} */
+
+.box{
+    background-color: black;
+    width: 200px;
+    margin: 5px;
+    height: 50px;
+    transition: width 0.5s ease-in;
+}

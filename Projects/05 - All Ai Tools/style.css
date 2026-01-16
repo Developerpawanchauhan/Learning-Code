@@ -1,0 +1,163 @@
+:root{
+    --Primary-color: #b118d8;
+    --Secondary-color: #c05bda;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    border-radius: 15px 0px;
+    width: 100vw;
+    padding: 5px 100px;
+    background: var(--Primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+header h1{
+    border: 5px solid #ffffff;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid rgb(221, 220, 220);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec1 img{
+    width: 300px;
+}
+.sec2 h2{
+    font-size: 35px;
+    color: var(--Primary-color);
+}
+
+.sec2{
+    margin-left: 50px;
+    padding: 100px;
+    max-width: 600px;
+    color: var(--Secondary-color);
+}
+.categories{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+    color: var(--Primary-color);
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    border: 2px solid var(--Primary-color);
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.card1{
+    padding: 30px;
+    border: 2px solid var(--Secondary-color);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.cards img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.cards h3{
+    margin: 20px 0;
+    color: var(--Primary-color);
+    font-size: 25px;
+
+}
+
+/* ================================================= */
+/* Other Page Grid style Warp */
+
+.cards-p{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    border: 2px solid var(--Primary-color);
+    justify-content: left;
+    margin: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.card1-p{
+    padding: 30px;
+    border: 2px solid var(--Secondary-color);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 20px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.cards-p img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.cards-p h3{
+    margin: 20px 0;
+    color: var(--Primary-color);
+    font-size: 25px;
+
+}
+
+/* ================================================== */
+
+footer{
+    text-align: center;
+    padding: 15px 20px;
+    background: var(--Primary-color);
+    color: #ffffff;
+    margin-top: 20px;
+}
+fjnnnb

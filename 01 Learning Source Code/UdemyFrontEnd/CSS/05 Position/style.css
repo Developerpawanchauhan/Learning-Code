@@ -1,0 +1,45 @@
+.container{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+    height: 1500px;
+}
+
+.div1{
+    border: 2px solid green;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+/* Using "Relative" We can set a shape position according to their current position. */
+
+#div2{
+    position: relative;
+    top: 100px;
+}
+
+/* Using "Absolute" We can set a shape position according to Body position. */
+
+
+#div3{
+    position: absolute;
+    top: 100px;
+}
+
+/* Using "Sticky" We can fixed a shape on top scrolling position */
+
+#div1{
+    position: sticky;
+    top: 70px;
+}
+
+/* Using "Fixed" we can Fixed a shape  */
+
+#div4{
+    position: fixed;
+    top: 200px;
+}
+

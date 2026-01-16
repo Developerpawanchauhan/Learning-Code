@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item{
+    border: 2px solid red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#item1{
+    order: 2;
+}
+
+#item2{
+    order: 1;
+}
+
+

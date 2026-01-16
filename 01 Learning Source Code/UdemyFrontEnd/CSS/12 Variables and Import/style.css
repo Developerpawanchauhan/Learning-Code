@@ -1,0 +1,29 @@
+/* Using import url we can add style of a css page, even without link css page with html */
+
+@import url(.newStyle.css);
+
+
+/* Using root we can create a Variable */
+
+:root{
+    --c: red;
+    --bg: yellow;
+}
+
+
+.vari{
+    border: 2px solid red;
+}
+
+.impo{
+    border: 2px solid green;
+}
+
+.vari h1{
+    background-color: var(--c);
+}
+
+.vari p{
+    background-color: var(--bg);
+}
+

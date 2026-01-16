@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+header list{
+    float: right;
+}
+
+header img{
+    height: 50px;
+}
+header list ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+section{
+    display: flex;
+}
+
+Section .left{
+    background-color: aqua;
+    float: left;
+    width: 20%;
+}
+section .main{
+    background-color: red;
+    width: 80%;
+}
+
+Section .right{
+    background-color: aqua;
+    float: right;
+    width: 20%;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 200px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tag{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+        }
+        #output{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="tex" placeholder="Type Text Here.">
+        <input type="button" value="click" onclick="add()">
+    </div>
+
+    <div id="tag">
+        <p id="output">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam atque facere voluptatum molestias, eum aut ea quae nisi perspiciatis quisquam commodi similique, accusamus provident reiciendis voluptate! Odit, itaque debitis! Illo cum beatae doloremque quaerat iste? Aut consequuntur error, ipsum similique accusantium ut odio dignissimos accusamus, nesciunt dolore quo ipsam.
+        </p>
+    </div>
+    <script>
+        function add(){
+            var txt = document.getElementById("tex").value;
+            var ans = document.getElementById("output").innerText=txt;
+        }
+    </script>
+</body>
+</html>

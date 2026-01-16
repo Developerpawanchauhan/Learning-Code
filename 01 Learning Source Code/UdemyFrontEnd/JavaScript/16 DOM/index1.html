@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM2</title>
+</head>
+<body>
+    <h3 id="ta">
+
+    </h3>
+    <input type="button" value="click here" onclick="Mclick()">
+
+    <div>
+        <input type="text" placeholder="Type text" id="box">
+        <input type="button" value="show" onclick="Bclick()">
+    </div>
+    <script>
+        function Mclick(){
+            document.getElementById("ta").innerHTML="Hello World !!";
+        }
+        
+        function Bclick(){
+            var l = document.getElementById("box").value;
+            alert(`Hello... ${l}`)
+            
+        }
+        
+    </script>
+</body>
+</html>

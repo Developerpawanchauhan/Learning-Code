@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #light{
+            display: flex;
+        }
+        #light>div{
+            margin: 20px;
+        }
+
+        #red{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        #yellow{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        #green{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="light">
+        <div id="red"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+    </div>
+    <div>
+        <input type="button" value="red" onclick="red()">
+        <input type="button" value="yellow" onclick="yellow()">
+        <input type="button" value="green" onclick="green()">
+        <input type="button" value="Reset" onclick="reset()">
+    </div>
+    <script>
+        function red(){
+            reset()
+            var r = document.getElementById("red");
+            r.style.backgroundColor="red";
+        }
+        function yellow(){
+            reset()
+            var y = document.getElementById("yellow");
+            y.style.backgroundColor="yellow";
+        }
+        function green(){
+            reset()
+            var g = document.getElementById("green");
+            g.style.backgroundColor="green";
+            
+        }
+
+        function reset(){
+            document.getElementById("red").style.backgroundColor="black";
+            document.getElementById("yellow").style.backgroundColor="black";
+            document.getElementById("green").style.backgroundColor="black";
+        }
+        
+    </script>
+</body>
+</html>
